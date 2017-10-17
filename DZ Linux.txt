@@ -1,0 +1,17 @@
+bash-4.4$ mkdir SkillUp                                                                                   
+bash-4.4$ cd SkillUp                                                                                      
+bash-4.4$ pwd                                                                                             
+/home/cg/root/SkillUp                                                                                     
+bash-4.4$ touch {1..5}                                                                                    
+bash-4.4$ ls                                                                                              
+1  2  3  4  5 
+bash-4.4$ date>1                                                                                          
+bash-4.4$ date>2                                                                                          
+bash-4.4$ date>3                                                                                          
+bash-4.4$ date>4                                                                                          
+bash-4.4$ date>5
+bash-4.4$ grep -ch 2017 {1..5} | wc -l                                                                    
+5 
+bash-4.4$ cd -                                                                                            
+/home/cg/root 
+bash-4.4$ rm -r SkillUp
